@@ -17,7 +17,7 @@ for(var i = 0; i < cognomi.length; i++){
 }
 
 var a = cognomi.indexOf(cognome_utente);
-document.getElementById('position_user').innerHTML = "Il tuo cognome è nella seguente posizione " + a
+document.getElementById('position_user').innerHTML = "Il tuo cognome è nella seguente posizione " + (a + 1)
 
 
 
